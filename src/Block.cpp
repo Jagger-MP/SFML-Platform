@@ -1,3 +1,5 @@
+#include "../headers/Block.h"
+
 Block :: setiD(int newiD)
 {
     iD = newiD;

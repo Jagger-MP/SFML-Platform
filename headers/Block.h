@@ -1,3 +1,6 @@
+#ifndef BLOCK_H
+#define BLOCK_H
+
 enum ID {
 Air = 0,
 Water = 38,
@@ -31,4 +34,6 @@ class Block
         void setParametter(int wide, int height,bool destructible,bool collisionnable);
         
     
-}
+};
+
+#endif
